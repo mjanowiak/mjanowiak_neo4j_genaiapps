@@ -26,3 +26,6 @@ tools = [
 ```
 
 - The tools are broken up by how a user might ask a question, with an important fallback `natural_language_to_cypher` tool that converts natural language to a Cypher query. This is the weak link in any natural-language-to-query system. It has minimal string cleaning in the tool function, but that was AI-generated and can likely be enhanced with a "compiler"-type cleaning function to ensure the string meets appropriate Cypher syntax.
+
+## Graph Visualization in NEO4J browser
+![Star Wars Visual](images/starwars_visual.png)
